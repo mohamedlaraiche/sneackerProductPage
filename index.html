@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Store | MOHAMED LARAICHE</title>
+    <!-- Reset and fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- MY STYLE -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/551a4a84f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="box">
+      <div class="container">
+        <header>
+          <div class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <a href="index.html"
+            ><img src="./images/logo.svg" class="logo" alt="logo"
+          /></a>
+          <ul class="list">
+            <li><a href="#" class="">Collection</a></li>
+            <li><a href="#" class="">Men</a></li>
+            <li><a href="#" class="">Women</a></li>
+            <li><a href="#" class="">About</a></li>
+            <li><a href="#" class="">Contact</a></li>
+          </ul>
+          <div class="shop-img">
+            <div class="shop">
+              <a href="#"><i class="fas fa-shopping-cart card"></i></a>
+            </div>
+            <div class="img">
+              <img
+                src="./images/image-avatar.png"
+                class="person"
+                alt="person"
+              />
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="container">
+        <section class="hero">
+          <div class="hero-content">
+            <div class="products-img">
+              <div class="hero-prd-img">
+                <img
+                  src="./images/image-product-1.jpg"
+                  class="prd-hero"
+                  alt=""
+                />
+              </div>
+              <div class="secondary-prd-img">
+                <img
+                  src="./images/image-product-1-thumbnail.jpg"
+                  class="sc-1"
+                  alt="products-1"
+                />
+                <img
+                  src="./images/image-product-2-thumbnail.jpg"
+                  class="sc-2 opacity"
+                  alt="products-2 "
+                />
+                <img
+                  src="./images/image-product-3-thumbnail.jpg"
+                  class="sc-3 opacity"
+                  alt="products-3 "
+                />
+                <img
+                  src="./images/image-product-4-thumbnail.jpg"
+                  class="sc-4 opacity"
+                  alt="products-4 "
+                />
+              </div>
+            </div>
+            <div class="products-info">
+              <p class="company-name">SNEAKER COMPANY</p>
+              <h1 class="prd-name">Fall Limited Edition Sneakers</h1>
+              <p class="prd-info">
+                These low-profile sneakers are you perfect casual wear
+                companion. Featuring a durable rubber outer sole, they'll
+                withstand everything the weather can offer.
+              </p>
+              <div class="pricing">
+                <div class="new-price">
+                  <p class="price">$125.00</p>
+                  <p class="discount">50%</p>
+                </div>
+                <div class="ex-price">$250.00</div>
+              </div>
+              <div class="qt-add-to-cart">
+                <div class="qt">
+                  <button class="minus"><i class="fas fa-minus"></i></button>
+                  <div class="qt-input">
+                    <input
+                      type="number"
+                      value="0"
+                      min="1"
+                      max="15"
+                      name="quantity"
+                      id="qt"
+                    />
+                  </div>
+                  <button class="plus"><i class="fas fa-plus"></i></button>
+                </div>
+                <div class="add-cart">
+                  <button class="addtoCard">
+                    <i class="fas fa-shopping-cart cardbtn"></i>
+                    Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="msgs">
+        <div class="addtocard">
+          <p>
+            Product add to the
+            <a href="#" class="secondCard"
+              ><i class="fas fa-shopping-cart card"></i
+            ></a>
+          </p>
+          <button class="ok">OK</button>
+        </div>
+        <div class="card-field" id="card">
+          <div class="card-header">
+            <h1>LIST OF ITEMS</h1>
+          </div>
+          <div class="card-content">
+            <div class="prodcut-list">
+              <p>product 1</p>
+              <p>product 2</p>
+              <p>product 3</p>
+            </div>
+            <div class="produc-price">
+              <p>$250</p>
+              <p>$250</p>
+              <p>$250</p>
+            </div>
+          </div>
+          <div class="paid-btns">
+            <button>Buy</button>
+            <button class="close">Close</button>
+          </div>
+        </div>
+        <div class="acc-info openAccount">
+          <div class="settings">
+            <ul>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Log Out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="noSup">
+      <p>NOT SUPPORTED SIZE +250 px</p>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
